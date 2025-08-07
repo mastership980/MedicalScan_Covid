@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(rgb(46,170,123), rgb(255, 255, 255));
+    font-family: "Poppins";
+}
+
+.link{
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 5px;
+    transition: box-shadow 0.2s ease;
+    padding: 2px 5px 2px 5px;
+}
+
+.link:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
